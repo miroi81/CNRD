@@ -4,12 +4,36 @@
         <meta charset="UTF-8">
         <title>CNRD</title>
         <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="code.js"></script>
     </head>
     <body>
-        <div class="main">
-            <div>La Déportation</div>
-            <button>Témoignages</button>
-            <button>Poèmes</button>
+        <div class="menu-container">
+            <div class="main menu">
+                <h1>La Déportation</h1>
+                <div class="temoignages button-container">
+                    <img class="icon" src="Icons/temoignages.png" alt="Témoignages">
+                    <button class="temoignages-button">Témoignages</button>
+                </div>
+                <div class="poemes button-container">
+                    <img class="icon" src="Icons/poems.png" alt="Poèmes">
+                    <button class="poemes-button">Poèmes</button>
+                </div>
+            </div>
+            <div class="poemes menu">
+                <h2>Poèmes</h2>
+                <div class="main button-container">
+                    <img class="icon" src="Icons/main.png" alt="Retour">
+                    <button class="main-button">Retour</button>
+                </div>      
+            </div>
+            <div class="temoignages menu">
+                <h2>Témoignages</h2>
+                <div class="main button-container">
+                    <img class="icon" src="Icons/main.png" alt="Retour">
+                    <button class="main-button">Retour</button>
+                </div>        
+            </div>
         </div>
     </body>
 </html>
